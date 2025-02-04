@@ -19,7 +19,8 @@ File size verification:
 ```bash
 $ ls -la yellow_tripdata_2020-12.csv
 -rw-r--r-- 1 gv-ia gv-ia 134481400 jul 14 2022 yellow_tripdata_2020-12.csv
-Question 2
+
+### Question 2
 What is the rendered value of the variable file when:
 
 taxi is set to green
@@ -34,7 +35,8 @@ green_tripdata_04_2020.csv
 green_tripdata_2020.csv
 
 Answer: green_tripdata_2020-04.csv
-Question 3
+
+### Question 3
 How many rows are there for the Yellow Taxi data for 2020?
 Options:
 
@@ -52,7 +54,8 @@ sqlCopySELECT COUNT(*) as total_rows FROM public.yellow_tripdata;
 |------------|
 | 24648499   |
 +------------+
-Question 4
+
+### Question 4
 How many rows are there for the Green Taxi data for 2020?
 Options:
 
@@ -76,7 +79,8 @@ WHERE
 |-----------------|
 | 1734052         |
 +-----------------+
-Question 5
+
+### Question 5
 How many rows are there for the Yellow Taxi data for March 2021?
 Options:
 
@@ -98,7 +102,8 @@ WHERE
 |---------|
 | 1925130 |
 +---------+
-Question 6
+
+### Question 6
 How would you configure the timezone to New York in a Schedule trigger?
 Options:
 
